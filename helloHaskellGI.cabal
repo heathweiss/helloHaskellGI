@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: aa0d62df0c9b8b2823a211c7dba6d8fcd751f1633e143fbf1a4baabc15a5d9af
+-- hash: 5d27eb794da22ca49f97388953500216e727481dd7281b2c7e4e7bcc68f10155
 
 name:           helloHaskellGI
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Gtk2HsTutorial.Packing
       Lib
   other-modules:
       Paths_helloHaskellGI
@@ -36,6 +37,7 @@ library
       base >=4.7 && <5
     , gi-gtk ==3.0.*
     , haskell-gi-base
+    , text
   default-language: Haskell2010
 
 executable helloHaskellGI-exe
@@ -50,6 +52,7 @@ executable helloHaskellGI-exe
     , gi-gtk ==3.0.*
     , haskell-gi-base
     , helloHaskellGI
+    , text
   default-language: Haskell2010
 
 test-suite helloHaskellGI-test
@@ -65,4 +68,5 @@ test-suite helloHaskellGI-test
     , gi-gtk ==3.0.*
     , haskell-gi-base
     , helloHaskellGI
+    , text
   default-language: Haskell2010

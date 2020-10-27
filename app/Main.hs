@@ -13,8 +13,8 @@ main :: IO ()
 main = do
   Gtk.init Nothing
 
-  win <- new Gtk.Window [ #title := "Hi there" ]
-
+  win <- new Gtk.Window [ #title := "Return On Assets" ]
+  
   on win #destroy Gtk.mainQuit
 
   --box is a container used to hold children, such as buttons and labels.
