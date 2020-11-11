@@ -8,9 +8,13 @@ import Lib
 --main = someFunc
 import qualified GI.Gtk as Gtk
 import Data.GI.Base
+import Glade.HelloGlade
 
 main :: IO ()
-main = do
+main = mainWindow
+
+main2 :: IO ()
+main2 = do
   Gtk.init Nothing
 
   win <- new Gtk.Window [ #title := "Return On Assets" ]

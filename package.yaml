@@ -25,6 +25,7 @@ dependencies:
 - gi-gtk == 3.0.*
 - text
 
+
 library:
   source-dirs: src
 

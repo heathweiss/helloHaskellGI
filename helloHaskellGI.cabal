@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5d27eb794da22ca49f97388953500216e727481dd7281b2c7e4e7bcc68f10155
+-- hash: ff8eecd49118168c4ceda78e7b6ba77098b07ee08c764d462360c77c34f84938
 
 name:           helloHaskellGI
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Glade.HelloGlade
       Gtk2HsTutorial.Packing
       Lib
   other-modules:
